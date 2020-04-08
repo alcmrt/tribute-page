@@ -3,17 +3,37 @@
     border-radius: .6rem;
     display: flex;
     flex-flow: column;
-    //padding: .5rem;
+
     max-width: 50rem;
     margin: auto;
-    //margin-top: 45%;
     overflow: hidden;
+    
+    @media only screen and (max-width: 1700px) {
+        max-width: 45rem;
+    }
+    
+    @media only screen and (max-width: 1200px) {
+        max-width: 40rem;
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        max-width: 37rem;
+    }
+
+    @media only screen and (max-width: 750px) {
+        max-width: 33rem;
+    }
+
+    @media only screen and (max-width: 500px) {
+        max-width: 30rem;
+    }
+
+    @media only screen and (max-width: 400px) {
+        max-width: 26rem;
+    }
+    
     &__img {
         max-width: inherit;
-        //max-height: inherit;
-        
-        //max-height: 30rem;
-        //border-radius: inherit;
     }
 
     &__caption {
