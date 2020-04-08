@@ -1,7 +1,7 @@
 {
   "name": "tribute-page",
   "version": "1.0.0",
-  "description": "Tribute page of Sabiha Gökçen",
+  "description": "Tribute page of Vecihi Hürkuş",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
