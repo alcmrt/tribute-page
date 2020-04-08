@@ -1,0 +1,26 @@
+.fig {
+    border: thick white solid;
+    border-radius: .6rem;
+    display: flex;
+    flex-flow: column;
+    //padding: .5rem;
+    max-width: 50rem;
+    margin: auto;
+    //margin-top: 45%;
+    overflow: hidden;
+    &__img {
+        max-width: inherit;
+        //max-height: inherit;
+        
+        //max-height: 30rem;
+        //border-radius: inherit;
+    }
+
+    &__caption {
+        background-color: rgba(34,34,34,0.6) ;
+        color: #fff;
+        font: italic smaller sans-serif;
+        padding: 3px;
+        text-align: center;
+    }
+}

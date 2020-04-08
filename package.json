@@ -1,0 +1,14 @@
+{
+  "name": "tribute-page",
+  "version": "1.0.0",
+  "description": "Tribute page of Sabiha Gökçen",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Alicem Murat Öcal",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

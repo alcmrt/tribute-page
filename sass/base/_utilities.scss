@@ -1,0 +1,31 @@
+// font
+.u-open-sans {font-family: 'Open Sans', sans-serif;}
+.u-font-weight-regular {font-weight: 400;}
+.u-font-weight-semibold {font-weight: 600;}
+.u-font-weight-bold {font-weight: 800;}
+
+// center component
+.u-margin-center {margin-left: 50%; transform: translate(-50%, 0);}
+
+// text allignment
+.u-center-text {text-align: center;}
+.u-left-text {text-align: left;}
+
+// margin bottom
+.u-margin-bottom-xx-small {margin-bottom: .7rem;}
+.u-margin-bottom-extra-small {margin-bottom: 1rem;}
+.u-margin-bottom-small {margin-bottom: 1.5rem;}
+.u-margin-bottom-medium {margin-bottom: 4rem;}
+.u-margin-bottom-big {margin-bottom: 8rem;}
+
+// border-top
+.u-border-top-1 {border-top: $border-color-1;}
+.u-border-top-2 {border-top: $border-color-2;}
+.u-border-top-3 {border-top: $border-color-3;}
+.u-border-top-4 {border-top: $border-color-4;}
+
+//border-bottom
+.u-border-bottom-1 {border-bottom: $border-color-1;}
+.u-border-bottom-2 {border-bottom: $border-color-2;}
+.u-border-bottom-3 {border-bottom: $border-color-3;}
+.u-border-bottom-4 {border-bottom: $border-color-4;}
